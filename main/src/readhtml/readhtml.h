@@ -137,6 +137,7 @@ const char index_html[] PROGMEM = R"rawliteral(
 
         function triggerYuanKongFunc() {
             let num = document.getElementById("numInput2").value;
+            let xhr = new XMLHttpRequest();
             xhr.open("POST", "/trigger/yuankong", true);
             xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
             xhr.send("num=" + num);
