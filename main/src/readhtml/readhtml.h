@@ -111,7 +111,7 @@ const char index_html[] PROGMEM = R"rawliteral(
     <!-- 定义操控板块 -->
     <button class="diffraction-btn" onclick="triggerDanfengFunc()">单缝衍射</button><br>
     <input type="number" class="input-num" id="numInput" placeholder="输入间隔的像素数(不要超过屏幕尺寸)"><br>
-    <button class="diffraction-btn" onclick="triggerShuangfengFunc()">双缝衍射</button><br>
+    <button class="diffraction-btn" onclick="triggerShuangfengFunc()">双缝衍射（干涉）</button><br>
     <input type="number" class="input-num" id="numInput2" placeholder="输入圆的半径(不要超过屏幕尺寸)"><br>
     <button class="diffraction-btn" onclick="triggerYuanKongFunc()">圆形孔衍射</button><br>
 
